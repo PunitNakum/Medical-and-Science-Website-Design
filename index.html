@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abc Hospital</title>
+    <link rel="icon" href="images/hospital.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./scss/style.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script> -->
+    <script src="./js/jquery.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="./js/script.js"></script>
+
+</head>
+
+<body>
+    <section class="bg-info">
+        <div class="container">
+            <div class="row text-white">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <p><b>OPD Timing</b></p>
+                    <p>Monday - Saturday : 9:00 AM - 7:00 PM</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex">
+                    <div class="justify-content-start">
+                        <p class="mt-2"><small><i class="bi bi-envelope"></i></small> abchospital@gmail.com</p>
+                    </div>
+                    <div class="btn-hover ms-3 mb-2 justify-content-end">
+                        <button class="btn btn-danger btn-sm mt-2 ps-3 pe-2">Emergency Number</button>
+                        <div class="show-block">
+                            <ul class="list-group">
+                                <li class="list-group-item bg-danger p-2"><a href="tel:1234567893"
+                                        class="text-white nav-link">+91 123-4567-893</a>
+                                </li>
+                                <li class="list-group-item bg-danger p-2"><a href="tel:1234567893"
+                                        class="text-white nav-link">+91 123-4567-893</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mega-menu">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown dropdown-mega position-static">
+                            <a class="nav-link dropdown-toggle text-black" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Specialities
+                            </a>
+                            <div class="dropdown-menu shadow">
+                                <div class="mega-content px-md-4">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-sm-6 py-4 px-xl-5 px-4">
+                                                <div class="list-group">
+                                                    <a href="" class="list-group-item">Cardiac Science</a>
+                                                    <a href="" class="list-group-item">Cardiac Science</a>
+                                                    <a href="" class="list-group-item">Cardiac Science</a>
+                                                    <a href="" class="list-group-item">Cardiac Science</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-6 py-4 px-xl-5 px-4">
+                                                <div class="list-group">
+                                                    <a href="" class="list-group-item">Cardiac Science</a>
+                                                    <a href="" class="list-group-item">Cardiac Science</a>
+                                                    <a href="" class="list-group-item">Cardiac Science</a>
+                                                    <a href="" class="list-group-item">Cardiac Science</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-6 py-4 px-xl-5 px-4">
+                                                <div class="list-group">
+                                                    <a href="" class="list-group-item">Cardiac Science</a>
+                                                    <a href="" class="list-group-item">Cardiac Science</a>
+                                                    <a href="" class="list-group-item">Cardiac Science</a>
+                                                    <a href="" class="list-group-item">Cardiac Science</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" aria-current="page" onclick="openForm();" href="#">Book
+                                Appointment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" aria-current="page" href="#Online-Consultation">Online
+                                Consultation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" aria-current="page" href="#book-Lab-Test">Book Lab</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" aria-current="page" href="#video-Consultation">Book Video
+                                Consultation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" aria-current="page" href="#doctor-Profiles">Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" aria-current="page" href="#Faqs">FAQS</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    </div>
+    <section class="image-section">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img1.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img2.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img3.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img4.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img1.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img2.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img3.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img4.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img1.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img2.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img3.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img4.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img1.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img2.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img3.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3"><img src="./images/img4.jpg" class="img-thumbnail image-hover"
+                        alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <div class="overlay" id="overid">
+    </div>
+    <section class="openForm">
+        <div class="form-class" id="formId">
+            <span onclick="closeForm();">&times;</span>
+            <form action="">
+                <div class="row p-4">
+                    <div class="col-sm-12 col-lg-4 col-md-4">
+                        <label for="">Full Name</label>
+                        <input type="text" class="form-control" placeholder="Full name" aria-label="Full name">
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-4">
+                        <label for="">Gender</label>
+                        <input type="text" class="form-control" placeholder="Gender" aria-label="Gender">
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-4">
+                        <label for="">Age</label>
+                        <input type="text" class="form-control" placeholder="Age" aria-label="Age">
+                    </div>
+                </div>
+
+                <div class="row p-4">
+                    <div class="col-sm-12 col-lg-4 col-md-4">
+                        <label for="">Mobile</label>
+                        <input type="tel" class="form-control" placeholder="Mobile" aria-label="Mobile">
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-4">
+                        <label for="">Email</label>
+                        <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
+                    </div>
+                    <div class="col-sm-12   col-lg-4 col-md-4">
+                        <label for="">Service</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Services</option>
+                            <option value="Cardiology">Cardiology</option>
+                            <option value="Cosmetic">Cosmetic</option>
+                            <option value="Dental Cosmetic">Dental Cosmetic</option>
+                            <option value="Oncology">Oncology</option>
+                            <option value="Neuro Science">Neuro Science</option>
+                            <option value="General Surgery">General Surgery</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row p-4">
+                    <div class="col-sm-12 col-lg-4 col-md-4">
+                        <button class="btn button-color">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="online-Consultation mt-3" id="Online-Consultation">
+        <div class="container back-color">
+            <div class="row p-2">
+                <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                    <h3 class="text-center">Medical Consultation Form</h3>
+                    <label class="m-2" for="">Fullname</label>
+                    <input type="text" class="form-control" aria-describedby="nameHelp">
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                    <label class="m-2" for="">Gender</label>
+                    <div>
+                        <input class="form-check-input" type="radio" name="Male">
+                        <label class="ms-2" for="">Male</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="radio" name="Female">
+                        <label class="ms-2" for="">Female</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                    <label class="m-2" for="">Mobile Number</label>
+                    <input type="tel" class="form-control" maxlength="10" aria-describedby="mobileHelp">
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                    <h5>Have you seen a doctor for any of the following illnesses ?</h5>
+                    <label class="m-2" for="">High blood pressure</label>
+                    <div>
+                        <input class="form-check-input" type="radio" name="Yes">
+                        <label class="ms-2" for="">Yes</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="radio" name="No">
+                        <label class="ms-2" for="">No</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                    <label class="m-2" for="">Heart Disease</label>
+                    <div>
+                        <input class="form-check-input" type="radio" name="Yes">
+                        <label class="ms-2" for="">Yes</label>
+                    </div>
+                    <div>
+                        <input class="form-check-input" type="radio" name="No">
+                        <label class="ms-2" for="">No</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row p-2">
+                <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                    <label class="m-2" for="">Specify reason for Consultation in details</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                    <label class="m-2" for="">Consultation Date</label>
+                    <input type="date" class="form-control" aria-describedby="dateHelp">
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                    <label class="m-2" for="">Consultation Time</label>
+                    <input type="time" class="form-control" placeholder="HH/MM" aria-describedby="timeHelp">
+                </div>
+            </div>
+            <div class="row p-2 text-center">
+                <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                    <button class="btn btn-primary ps-4 pe-4 mb-3">Send</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="book-Lab-Test" class="lab-back p-4">
+        <div class="container mt-4">
+            <h3 class="text-center pb-4">Top Lab Book Packages</h3>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex justify-content-evenly">
+                            <div class="col-sm-12 col-md-12 col-lg-3 bg-white p-4 hover-effect">
+                                <img src="./images/blood.jpg" class="img-thumbnail image-width" alt="">
+                                <p class="pt-2">Complete blood count (cbc)</p>
+                                <p class="pt-2">14 tests included</p>
+                                <p class="pt-2"><b>Report delivery :</b></p>
+                                <p class="pt-2">Same Day*</p>
+                                <big><span class="p-2">&#8377;</span> 390</big><br>
+                                <button class="btn btn-light mt-2">View Details</button>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-3 bg-white p-4 hover-effect">
+                                <img src="./images/blood.jpg" class="img-thumbnail image-width" alt="">
+                                <p class="pt-2">Complete blood count (cbc)</p>
+                                <p class="pt-2">14 tests included</p>
+                                <p class="pt-2"><b>Report delivery :</b></p>
+                                <p class="pt-2">Same Day*</p>
+                                <big><span class="p-2">&#8377;</span> 390</big><br>
+                                <button class="btn btn-light mt-2">View Details</button>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-3 bg-white p-4 hover-effect">
+                                <img src="./images/blood.jpg" class="img-thumbnail image-width" alt="">
+                                <p class="pt-2">Complete blood count (cbc)</p>
+                                <p class="pt-2">14 tests included</p>
+                                <p class="pt-2"><b>Report delivery :</b></p>
+                                <p class="pt-2">Same Day*</p>
+                                <big><span class="p-2">&#8377;</span> 390</big><br>
+                                <button class="btn btn-light mt-2">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-evenly">
+                            <div class="col-sm-12 col-md-12 col-lg-3 bg-white p-4 hover-effect">
+                                <img src="./images/blood.jpg" class="img-thumbnail image-width" alt="">
+                                <p class="pt-2">Complete blood count (cbc)</p>
+                                <p class="pt-2">14 tests included</p>
+                                <p class="pt-2"><b>Report delivery :</b></p>
+                                <p class="pt-2">Same Day*</p>
+                                <big><span class="p-2">&#8377;</span> 390</big><br>
+                                <button class="btn btn-light mt-2">View Details</button>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-3 bg-white p-4 hover-effect">
+                                <img src="./images/blood.jpg" class="img-thumbnail image-width" alt="">
+                                <p class="pt-2">Complete blood count (cbc)</p>
+                                <p class="pt-2">14 tests included</p>
+                                <p class="pt-2"><b>Report delivery :</b></p>
+                                <p class="pt-2">Same Day*</p>
+                                <big><span class="p-2">&#8377;</span> 390</big><br>
+                                <button class="btn btn-light mt-2">View Details</button>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-3 bg-white p-4 hover-effect">
+                                <img src="./images/blood.jpg" class="img-thumbnail image-width" alt="">
+                                <p class="pt-2">Complete blood count (cbc)</p>
+                                <p class="pt-2">14 tests included</p>
+                                <p class="pt-2"><b>Report delivery :</b></p>
+                                <p class="pt-2">Same Day*</p>
+                                <big><span class="p-2">&#8377;</span> 390</big><br>
+                                <button class="btn btn-light mt-2">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-evenly">
+                            <div class="col-sm-12 col-md-12 col-lg-3 bg-white p-4 hover-effect">
+                                <img src="./images/blood.jpg" class="img-thumbnail image-width" alt="">
+                                <p class="pt-2">Complete blood count (cbc)</p>
+                                <p class="pt-2">14 tests included</p>
+                                <p class="pt-2"><b>Report delivery :</b></p>
+                                <p class="pt-2">Same Day*</p>
+                                <big><span class="p-2">&#8377;</span> 390</big><br>
+                                <button class="btn btn-light mt-2">View Details</button>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-3 bg-white p-4 hover-effect">
+                                <img src="./images/blood.jpg" class="img-thumbnail image-width" alt="">
+                                <p class="pt-2">Complete blood count (cbc)</p>
+                                <p class="pt-2">14 tests included</p>
+                                <p class="pt-2"><b>Report delivery :</b></p>
+                                <p class="pt-2">Same Day*</p>
+                                <big><span class="p-2">&#8377;</span> 390</big><br>
+                                <button class="btn btn-light mt-2">View Details</button>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-3 bg-white p-4 hover-effect">
+                                <img src="./images/blood.jpg" class="img-thumbnail image-width" alt="">
+                                <p class="pt-2">Complete blood count (cbc)</p>
+                                <p class="pt-2">14 tests included</p>
+                                <p class="pt-2"><b>Report delivery :</b></p>
+                                <p class="pt-2">Same Day*</p>
+                                <big><span class="p-2">&#8377;</span> 390</big><br>
+                                <button class="btn btn-light mt-2">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="video-Consultation">
+        <div class="container">
+            <div class="row mt-5 d-flex justify-content-evenly">
+                <h4 class="text-center">Video Call Appointment</h4>
+                <h5 class="text-center"> <span> Cardiac Science </span></h5>
+                <center>
+                    <hr class="line">
+                </center>
+                <div class="col-lg-4 mb-2 col-md-5 col-sm-12">
+                    <div class="rounded-5 p-2 text-center doctor-name" data-para="#para-hover-1">
+                        <button class="btn"> Dr. Abc Xyz </button>
+                    </div>
+                    <div class="rounded-5 mt-3 p-3" id="para-hover-1">
+                        <div class="p-2 text-center d-flex">
+                            <img src="./images/profile.jpeg" class="w-50 rounded-3" alt="">
+                            <div class="w-100"><b>Dr. Abc Xyz</b>
+                                <p>Oncology Department</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h6>Medical Registration Number</h6>
+                            32564/21692 Issued By - Rajasthan Medical Counsil
+                        </div>
+                        <div>
+                            <h6>Book an Appointment</h6>
+                            <hr>
+                            Select Appointment type :
+                            <select class="form-select mt-2 mb-3" aria-label="Default select example">
+                                <option selected>First Time Consultation (INR 1000)</option>
+                                <option value="1">Regular Consultation (INR 600)</option>
+                            </select>
+                            Select an available time
+                            <div class="calendar mb-3 p-3">
+                                <input type="date" class="input-group form-control" name="" id="datepicker">
+                            </div>
+                            <div class="text-center"><button class="btn btn-success">Book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-2 col-md-5 col-sm-12">
+                    <div class="rounded-5 p-2 text-center doctor-name" data-para="#para-hover-2">
+                        <button class="btn"> Dr. Abc Xyz </button>
+                    </div>
+                    <div class="rounded-5 mt-3 p-3" id="para-hover-2">
+                        <div class="p-2 text-center d-flex">
+                            <img src="./images/profile.jpeg" class="w-50 rounded-3" alt="">
+                            <div class="w-100"><b>Dr. Abc Xyz</b>
+                                <p>Oncology Department</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h6>Medical Registration Number</h6>
+                            32564/21692 Issued By - Rajasthan Medical Counsil
+                        </div>
+                        <div>
+                            <h6>Book an Appointment</h6>
+                            <hr>
+                            Select Appointment type :
+                            <select class="form-select mt-2 mb-3" aria-label="Default select example">
+                                <option selected>First Time Consultation (INR 1000)</option>
+                                <option value="1">Regular Consultation (INR 600)</option>
+                            </select>
+                            Select an available time
+                            <div class="calendar mb-3 p-3">
+                                <input type="date" class="input-group form-control" name="" id="datepicker">
+                            </div>
+                            <div class="text-center"><button class="btn btn-success">Book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex pb-5 justify-content-evenly">
+                <h5 class="text-center pt-3"> Cardiac Science </h5>
+                <center>
+                    <hr>
+                </center>
+                <div class="col-lg-4 mt-2 col-md-5 col-sm-12 rounded-5">
+                    <div class="rounded-5 p-2 text-center doctor-name" data-para="#para-hover-3">
+                        <button class="btn"> Dr. Abc Xyz </button>
+                    </div>
+                    <div class="rounded-5 p-3 mt-3" id="para-hover-3">
+                        <div class="p-2 text-center d-flex">
+                            <img src="./images/profile.jpeg" class="w-50 rounded-3" alt="">
+                            <div class="w-100"><b>Dr. Abc Xyz</b>
+                                <p>Oncology Department</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h6>Medical Registration Number</h6>
+                            32564/21692 Issued By - Rajasthan Medical Counsil
+                        </div>
+                        <div>
+                            <h6>Book an Appointment</h6>
+                            <hr>
+                            Select Appointment type :
+                            <select class="form-select mt-2 mb-3" aria-label="Default select example">
+                                <option selected>First Time Consultation (INR 1000)</option>
+                                <option value="1">Regular Consultation (INR 600)</option>
+                            </select>
+                            Select an available time
+                            <div class="calendar mb-3 p-3">
+                                <input type="date" class="input-group form-control" name="" id="datepicker">
+                            </div>
+                            <div class="text-center"><button class="btn btn-success">Book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-2 col-md-5 col-sm-12 rounded-5">
+                    <div class="rounded-5 p-2 text-center doctor-name" data-para="#para-hover-4">
+                        <button class="btn"> Dr. Abc Xyz </button>
+                    </div>
+                    <div class="rounded-5 p-3 mt-3" id="para-hover-4">
+                        <div class="p-2 text-center d-flex">
+                            <img src="./images/profile.jpeg" class="w-50 rounded-3" alt="">
+                            <div class="w-100"><b>Dr. Abc Xyz</b>
+                                <p>Oncology Department</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h6>Medical Registration Number</h6>
+                            32564/21692 Issued By - Rajasthan Medical Counsil
+                        </div>
+                        <div>
+                            <h6>Book an Appointment</h6>
+                            <hr>
+                            Select Appointment type :
+                            <select class="form-select mt-2 mb-3" aria-label="Default select example">
+                                <option selected>First Time Consultation (INR 1000)</option>
+                                <option value="1">Regular Consultation (INR 600)</option>
+                            </select>
+                            Select an available time
+                            <div class="calendar mb-3 p-3">
+                                <input type="date" class="input-group form-control" name="" id="datepicker">
+                            </div>
+                            <div class="text-center"><button class="btn btn-success">Book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-2 col-md-5 col-sm-12 rounded-5">
+                    <div class="rounded-5 p-2 text-center doctor-name" data-para="#para-hover-5">
+                        <button class="btn"> Dr. Abc Xyz </button>
+                    </div>
+                    <div class="rounded-5 p-3 mt-3" id="para-hover-5">
+                        <div class="p-2 text-center d-flex">
+                            <img src="./images/profile.jpeg" class="w-50 rounded-3" alt="">
+                            <div class="w-100"><b>Dr. Abc Xyz</b>
+                                <p>Oncology Department</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h6>Medical Registration Number</h6>
+                            32564/21692 Issued By - Rajasthan Medical Counsil
+                        </div>
+                        <div>
+                            <h6>Book an Appointment</h6>
+                            <hr>
+                            Select Appointment type :
+                            <select class="form-select mt-2 mb-3" aria-label="Default select example">
+                                <option selected>First Time Consultation (INR 1000)</option>
+                                <option value="1">Regular Consultation (INR 600)</option>
+                            </select>
+                            Select an available time
+                            <div class="calendar mb-3 p-3">
+                                <input type="date" class="input-group form-control" name="" id="datepicker">
+                            </div>
+                            <div class="text-center"><button class="btn btn-success">Book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="doctor-Profiles" class="profile-back">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-lg-4 col-sm-12 col-md-12 text-center">
+                    <div class="position-relative pt-5 bg-white mt-5 pb-4 rounded-5">
+                        <a href="" class="text-decoration-none text-black">
+                            <img src="./images/profile.jpeg" class="image-set" alt="">
+                            <div>
+                                <p class="mt-xl-5 mt-lg-0 pt-5"><b>Dr. Abc Xyz</b></p>
+                                <p class="pb-5">Surgical Oncology</p>
+                            </div>
+                        </a>
+                        <hr>
+                        <span class="pb-4">&#128337;</span> Up To 15 min
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-12 text-center">
+                    <div class="position-relative  pt-5 bg-white mt-5  pb-4 rounded-5">
+                        <a href="" class="text-decoration-none text-black">
+                            <img src="./images/profile.jpeg" class="image-set" alt="">
+                            <div>
+                                <p class="mt-xl-5 mt-lg-0 pt-5"><b>Dr. Abc Xyz</b></p>
+                                <p class="pb-5">Surgical Oncology</p>
+                            </div>
+                        </a>
+                        <hr>
+                        <span class="pb-4">&#128337;</span> Up To 15 min
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-12 text-center">
+                    <div class="position-relative pt-5 bg-white mt-5  pb-4 rounded-5">
+                        <a href="" class="text-decoration-none text-black ">
+                            <img src="./images/profile.jpeg" class="image-set" alt="">
+                            <div>
+                                <p class="mt-xl-5 mt-lg-0 pt-5"><b>Dr. Abc Xyz</b></p>
+                                <p class="pb-5">Surgical Oncology</p>
+                            </div>
+                        </a>
+                        <hr>
+                        <span class="pb-4">&#128337;</span> Up To 15 min
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5 pb-5">
+                <div class="col-lg-4 col-sm-12 col-md-12 text-center">
+                    <div class="position-relative pt-5 bg-white mt-5 pb-4 rounded-5">
+                        <a href="" class="text-decoration-none text-black">
+                            <img src="./images/profile.jpeg" class="image-set" alt="">
+                            <div>
+                                <p class="mt-xl-5 mt-lg-0 pt-5"><b>Dr. Abc Xyz</b></p>
+                                <p class="pb-5">Surgical Oncology</p>
+                            </div>
+                        </a>
+                        <hr>
+                        <span class="pb-4">&#128337;</span> Up To 15 min
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-12 text-center">
+                    <div class="position-relative  pt-5 bg-white mt-5  pb-4 rounded-5">
+                        <a href="" class="text-decoration-none text-black">
+                            <img src="./images/profile.jpeg" class="image-set" alt="">
+                            <div>
+                                <p class="mt-xl-5 mt-lg-0 pt-5"><b>Dr. Abc Xyz</b></p>
+                                <p class="pb-5">Surgical Oncology</p>
+                            </div>
+                        </a>
+                        <hr>
+                        <span class="pb-4">&#128337;</span> Up To 15 min
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-12 text-center">
+                    <div class="position-relative pt-5 bg-white mt-5  pb-4 rounded-5">
+                        <a href="" class="text-decoration-none text-black ">
+                            <img src="./images/profile.jpeg" class="image-set" alt="">
+                            <div>
+                                <p class="mt-xl-5 mt-lg-0 pt-5"><b>Dr. Abc Xyz</b></p>
+                                <p class="pb-5">Surgical Oncology</p>
+                            </div>
+                        </a>
+                        <hr>
+                        <span class="pb-4">&#128337;</span> Up To 15 min
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Faqs">
+        <div class="container">
+            <div class="row mt-5">
+                <h3 class="text-center mt-3">Frequently Asked Questions</h3>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <p class=" text-danger"> 1) <a href="#first-question" class="text-decoration-none  text-danger">Are
+                            all the
+                            consultants
+                            available 24 hours?</a></p>
+                    <p class=" text-danger"> 2) <a href="#second-question" class="text-decoration-none  text-danger">Are
+                            all the
+                            consultants
+                            available 24 hours?</a></p>
+                    <p class=" text-danger"> 3) <a href="#third-question" class="text-decoration-none  text-danger">Are
+                            all the
+                            consultants
+                            available 24 hours?</a></p>
+                    <p class=" text-danger"> 4) <a href="#forth-question" class="text-decoration-none  text-danger">Are
+                            all the
+                            consultants
+                            available 24 hours?</a></p>
+
+                    <div class="mt-5" id="first-question">
+                        <h5>Are all the consultants available 24 hours?</h5>
+                        <p class="p1">All the consultants are full-time employees of the hospital; hence, outpatient
+                            services are
+                            available on all working days. We have doctors in the positions of medical and surgical
+                            registrars, junior and senior registrars, and junior and senior residents, thus offering 24
+                            hours coverage in areas such as Casualty, Wards, Intensive Care Units and Post Op recovery
+                            areas. Any complaints in the odd hours are first attended to by the resident doctors and,
+                            depending upon the case, the respective consultants are called in to attend to the patients.
+                        </p>
+                    </div>
+                    <div class="mt-5" id="second-question">
+                        <h5>Are all the consultants available 24 hours?</h5>
+                        <p class="p1">All the consultants are full-time employees of the hospital; hence, outpatient
+                            services are
+                            available on all working days. We have doctors in the positions of medical and surgical
+                            registrars, junior and senior registrars, and junior and senior residents, thus offering 24
+                            hours coverage in areas such as Casualty, Wards, Intensive Care Units and Post Op recovery
+                            areas. Any complaints in the odd hours are first attended to by the resident doctors and,
+                            depending upon the case, the respective consultants are called in to attend to the patients.
+                        </p>
+                    </div>
+                    <div class="mt-5" id="third-question">
+                        <h5>Are all the consultants available 24 hours?</h5>
+                        <p class="p1">All the consultants are full-time employees of the hospital; hence, outpatient
+                            services are
+                            available on all working days. We have doctors in the positions of medical and surgical
+                            registrars, junior and senior registrars, and junior and senior residents, thus offering 24
+                            hours coverage in areas such as Casualty, Wards, Intensive Care Units and Post Op recovery
+                            areas. Any complaints in the odd hours are first attended to by the resident doctors and,
+                            depending upon the case, the respective consultants are called in to attend to the patients.
+                        </p>
+                    </div>
+                    <div class="mt-5" id="forth-question">
+                        <h5>Are all the consultants available 24 hours?</h5>
+                        <p class="p1">All the consultants are full-time employees of the hospital; hence, outpatient
+                            services are
+                            available on all working days. We have doctors in the positions of medical and surgical
+                            registrars, junior and senior registrars, and junior and senior residents, thus offering 24
+                            hours coverage in areas such as Casualty, Wards, Intensive Care Units and Post Op recovery
+                            areas. Any complaints in the odd hours are first attended to by the resident doctors and,
+                            depending upon the case, the respective consultants are called in to attend to the patients.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="counters" class="counter">
+        <div class="container">
+            <div class="row text-center mt-5 pb-5">
+                <h4 class="text-center mt-5">Clinical Excellence</h4>
+                <p class="text-center mb-5">our commitment towords your service</p>
+                <div class="col-lg-3 col-md-3 col-sm-12 border-end border-warning mt-2 border-class">
+                    <span class="counter1" data-count="123">0</span>+
+                    <p>Patient Saved</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 border-end  border-warning  mt-2  border-class">
+                    <span class="counter1" data-count="123">0</span>+
+                    <p>Patient Saved</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 border-end border-warning  mt-2 border-class">
+                    <span class="counter1" data-count="123">0</span>+
+                    <p>Patient Saved</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12  mt-2">
+                    <span class="counter1" data-count="123">0</span>+
+                    <p>Patient Saved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class="bg-black">
+        <div class="container">
+            <div class="row text-white pb-5">
+                <h4 class="text-center pt-5">Contact Us</h4>
+                <div class="col-lg-6 col-md-6 col-sm-12 pt-5 pb-3">
+                    <h5>Location</h5>
+                    <h5>Abc Hospital</h5>
+                    <address>Science City Rd,<br> off Sarkhej - Gandhinagar Highway,<br> Sola, Ahmedabad, Gujarat 380060
+                    </address>
+                    <a href="https://goo.gl/maps/RejaNaYXZ8GKixd1A" class="btn btn-light">Get Direction</a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 pt-5 pb-3">
+                    <h5>Contact Info</h5>
+                    <p>Whatsapp Number : <a href="" class="text-decoration-none text-white"> +91 9878767644</a></p>
+                    <p>Appointment Number : <a href="" class="text-decoration-none text-white"> +91 9878767644</a></p>
+                    <p>Emergency Number : <a href="" class="text-decoration-none text-white"> +91 9878767644</a></p>
+                    <p>Email ID : <a href="" class="text-decoration-none text-white"> abchospital@gmail.com</a></p>
+                </div>
+                <hr>
+                <span class="text-center">&#169;2023abcHospital.All Rights Reserved.</span>
+                <div class="text-center">
+                    <a href="" class="text-white"><i class="bi bi-facebook ps-2"></i></a>
+                    <a href="" class="text-white"><i class="bi bi-instagram ps-2"></i></a>
+                    <a href="" class="text-white"><i class="bi bi-twitter ps-2"></i></a>
+                    <a href="" class="text-white"><i class="bi bi-linkedin ps-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
